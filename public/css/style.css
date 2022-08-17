@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'roboto';
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+.visit-ofert {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.discount {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 16px;
+    display: none;
+}
+
+.header-style{
+    background-color: #EAC926;
+}
+
+nav{
+    display: none;
+}
+
+.photo-product{
+    width: 50%;
+    margin-left: 13%;
+}
+
+.burger-menu{
+    width: 40px;
+    height: 30px;
+    background-color:#1259c3;;
+    font-size: 25px;
+    color: #ebebeb;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 0px;
+}
+
+.borde{    
+    border: solid 1px #ebebeb;
+}
+
+.elmain{
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+.foto{
+    width: 100%;
+}
+
+.articulo{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.camion{
+    color: #39b54a;
+    padding: 8px;
+    border: solid 2px #39b54a;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0%;
+    width: 40px;
+}
+
+.camion:hover{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+article{
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+
+.producto{
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icono{
+    margin: auto;
+    text-align: center;
+    color: #1259c3;
+    margin-bottom: 10px;
+    font-size: 2em;
+    padding-top: 20px;
+
+}
+
+.textoFooter{
+    margin: auto;
+    text-align: center;
+}
+
+.submit{
+    position: absolute;
+    left: 300px;
+    cursor: pointer;
+}
+
+.cecystdc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barra{
+    position: relative;
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barra ::placeholder{
+    font-size: 15px;
+}
+
+.barra button{
+    width: 15%;
+}
+
+.topbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topbar a{
+    width: 50%;
+}
+
+.topbar img{
+    width: 100%;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.topbar p{
+    width: 100%;
+}
+
+.topbar button{
+    position: absolute;
+}
+
+.barra input{
+    border: solid 1px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 6px 35px 6px 10px;
+    height: 20px;
+}
+
+
+.botonis:hover{
+    background-color: #0022AA;
+}
+
+
+@media (min-width: 361px){
+    .description{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .barra{
+        display: block;
+    }
+    nav{
+        display: block;
+    }
+    .producto{
+        width: 45%;
+    }
+    article{
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 769px){
+
+    .producto{
+        width: 20%;
+    }
+    footer{
+        display: flex;
+    }
+}
